@@ -225,6 +225,7 @@ public class CreatePurchaseOrder extends BaseClass {
 					WebElement saveAndExit=driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/following::td[1]"));
 					saveAndExit.clear();
 					System.out.println(e.getMessage());
+					System.out.println("Stale Element handled");
 				}
 				
 			}
